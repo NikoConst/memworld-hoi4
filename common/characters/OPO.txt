@@ -1,0 +1,152 @@
+characters={
+	
+	OPO_Billy_Herrington={
+		name="OPO_Billy_Herrington"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Billy_Herrington
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	OPO_Enver_Kekir={
+		name="OPO_Enver_Kekir"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Enver_Kekir
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	OPO_Otto_Kerk={
+		name="OPO_Otto_Kerk"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Otto_Kerk
+			}
+		}
+	}
+	OPO_Edward_Kekinesky={
+	name=OPO_Edward_Kekinesky
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Edward_Kekinesky"
+			}
+			civilian={
+				large=GFX_Portrait_Opolchenie_Edward_Kekinesky
+			}
+		}
+
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+    OPO_Andrew_American={
+		name=OPO_Andrew_American
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_andrew_american
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = andrew_american
+            ledger = political_advisor
+            traits = { captain_of_industry }
+        }
+	}
+	
+	OPO_Kek_Donbassovich={
+		name=OPO_Kek_Donbassovich
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_kek_donbassovich
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = kek_donbassovich
+            ledger = political_advisor
+            traits = { prince_of_terror }
+        }
+	}
+	
+	OPO_Ernst_Kekelman={
+		name=OPO_Ernst_Kekelman
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_ernst_kekelman
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = ernst_kekelman
+            ledger = political_advisor
+            traits = { silent_workhorse }
+        }
+	}
+	
+	OPO_Keklian_Keyuzfavich={
+		name=OPO_Keklian_Keyuzfavich
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_keklian_keyuzfavich
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = keklian_keyuzfavich
+            ledger = political_advisor
+            traits = { communist_revolutionary }
+        }
+	}
+
+	#OPO_Green_House={
+	#	name="OPO_Green_House"
+	#	portraits={
+	#		civilian={
+	#			large=GFX_Portrait_OPOland_Green_House
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=liberalism
+	#		expire="2029.1.1.1"
+	#		id=-1
+	#	}
+	#}
+	
+	#OPO_Deoano_Kershuzvelt={
+	#	name="OPO_Deoano_Kershuzvelt"
+	#	portraits={
+	#		civilian={
+	#			large=GFX_Portrait_OPOland_Deoano_Kershuzvelt
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=conservatism
+	#		expire="2022.1.1.1"
+	#		id=-1
+	#	}
+	#}
+}

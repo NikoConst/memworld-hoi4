@@ -1,0 +1,14 @@
+state={
+	id=344
+	name="STATE_344"
+	provinces={
+		3953 8756 17553 17615 17678 
+	}
+	manpower = 28320
+	history={
+		owner = REZ
+		controller = REZ
+		add_core_of = REZ
+		}
+	state_category = rural
+}

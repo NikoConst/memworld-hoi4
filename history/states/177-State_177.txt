@@ -1,0 +1,36 @@
+
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		216 3053 5305 6649 21110 21566 21567 
+	}
+	manpower = 1250000
+	state_category = city
+	history={
+		owner = KAL
+		controller = KAL
+		add_core_of = KAL
+		victory_points = {
+			5305 20 
+		}
+		victory_points = {
+			21110 5 
+		}
+		victory_points = {
+			21566 25 
+		}
+		victory_points = {
+			3053 10 
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			21566 = {
+			naval_base = 1
+			}
+			
+		}
+}
+}
